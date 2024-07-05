@@ -6,10 +6,10 @@ import CssBaseline from "@mui/material/CssBaseline";
 import { Experimental_CssVarsProvider as CssVarsProvider } from "@mui/material/styles";
 import { BrowserRouter, HashRouter } from "react-router-dom";
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <HashRouter>
+  <BrowserRouter>
     <CssVarsProvider theme={theme}>
       <CssBaseline />
       <App />
     </CssVarsProvider>
-  </HashRouter>
+  </BrowserRouter>
 );
